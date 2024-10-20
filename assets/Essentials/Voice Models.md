@@ -245,7 +245,6 @@ Download the <u>[correct files](https://docs.ai-hub.wtf/essentials/voice-models/
 - Comission a **model maker** to make it for you         
 
 ##### ‎
-***‎
 :::content-center
 #### `You have reached the end.`
 
