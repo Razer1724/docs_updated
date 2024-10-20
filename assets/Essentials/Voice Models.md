@@ -245,62 +245,7 @@ Download the <u>[correct files](https://docs.ai-hub.wtf/essentials/voice-models/
 - Comission a **model maker** to make it for you         
 
 ##### ‎
-***
-:::content-center
-## Uploading to Hugging Face
-:::
-‎
-:   ‎
-
-#### 1. Zip the model        
-- Select the correct <u>[.PTH & .INDEX](https://docs.ai-hub.wtf/essentials/voice-models/#voice-model-files)</u> & <u>[zip</u>](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5) them into a **.ZIP** file.       
-
-- Ensure it's .ZIP & not .RAR or .7ZIP.
-
-***
-###### ‎ 
-#### 2. Log in
-- If you haven't already, <u>[create an account</u>](https://huggingface.co/join) & log in.
-***
-###### ‎  
-#### 3. Make repository
-a. Once logged in, tap your profile on the upper right corner, & then `New Model`.       
-
-    <img src="../hfupload-img/1.png" alt="image" width="200" height="auto">
-
-    ‎
-
-b.  In `Model name` you name the repo as you want.   
-
-c.  Make sure **License** is set as `openrail` & the repo is set as `Public`.     
-
-d.  Once done, hit `Create model`.
-
-    <img src="../hfupload-img/2.png" alt="image" width="480" height="auto"> ‎                
-***
-###### ‎ 
-#### 4. Upload model
-a. It will redirect you to the repo.        
-Go to the `Files and versions` tab on the center, click `+ Add file` on the right & then ``Upload files``.
-
-    <img src="../hfupload-img/3.png" alt="image" width="350" height="auto">‎    
-‎                         
-b. Tap the upload box & submit the ZIP. Or just drag & drop.       
-
-    <img src="../hfupload-img/4.png" alt="image" width="" height="auto">‎       
-‎       
-c. Tap on `Commit changes to main` & the model will begin to upload.
-***
-###### ‎ 
-#### 5. Copy link (optional)
-- Once it's done, it will redirect you to the files list.       
-
-- So if you need its link, right-click the download button ( :icon-download: ) of the .ZIP file on the right, and click `Copy Link`.
-
-    <img src="../hfupload-img/5.png" alt="image" width="610" height="auto">
-           
-***
-###### ‎
+***‎
 :::content-center
 #### `You have reached the end.`
 
