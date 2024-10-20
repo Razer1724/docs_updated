@@ -369,11 +369,21 @@ b. Playable audios will then appear in the output boxes below. To download the o
 ***
 
 ###### ‎
+###### ‎ 
+:::content-center
+## RX 11
+:::
+‎ 
+:   ‎ 
 
-:::content-center 
-‎   
-<img src="../uvrmvsep-img/8.png" alt="image" width="400" height="auto">
-
+### Installation :icon-download:
+*** 
+1. Go to their <u>[official website</u>](https://www.izotope.com/en/shop/rx-11-advanced/?srsltid=AfmBOor--irjtR7Bsl08_bPj-7UMUGd49tYy9C_U2iXOAupjQ74Mat_s) & buy it or sail the seven seas and find a treasure box which contains RX 11. 
+***
+###### ‎ 
+### Useage (idk prob gonna remove or something)
+2. RX 11 is a very useful and powerful tool which every good model maker "owns". Here is a very good <u>[guide<u>](https://rentry.co/RVC-dataset-RX11) on RX 11.
+***
 ###### ‎       
 ## MVSEP
 :::
