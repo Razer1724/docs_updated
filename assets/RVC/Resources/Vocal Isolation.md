@@ -417,7 +417,7 @@ a. Click `Browse File` & select your audio, or simply drag & drop. The audio wil
 ‎
 #### 3. Extract vocals.
 ###### ‎
-a. In **Separation type** select `MDX23C`     
+a. In **Separation type** select `BS Roformer`     
 ‎     
 b. In **Output encoding** select `FLAC`.          
 We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://docs.ai-hub.wtf/extra/glossary/#lossless-formats).        
@@ -478,9 +478,9 @@ We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://docs.a
 ‎
 #### 3. Select model.  
 ###### ‎
-a. In **Separation Type**, select `Ultimate Vocal Remover 5 HQ`.      
+a. In **Separation Type**, select `DeNoise by aufr33`.      
 ‎     
-b. Check the <u>[model list](https://docs.ai-hub.wtf/rvc/resources/vocal-isolation/#best-models)</u>. In `Select VR Model` pick the one according to what you need to remove.         
+b. Check the <u>[model list](https://docs.ai-hub.wtf/rvc/resources/vocal-isolation/#best-models)</u>. Pick the one according to what you need to remove.         
 ‎       
 If you need to remove multiple noises, follow this pipeline for the best results:       
 ``Remove instrumental -> Remove reverb -> Extract main vocals -> Remove noise`` 
@@ -512,7 +512,7 @@ If you wish to keep the backing vocals stem, remember to download it too.
 ***
 ==- *MVSEP extracted too much/too little.*
 ###### ‎ 
-- Using the **Separation Type** of `Ultimate Vocal Remover HQ`, you can modify the `Aggressiveness` value. 
+- Using the **Separation Type** of `DeNoise by aufr33`, you can modify the `Aggressiveness`. 
 This determines the depth of the extraction.
 - A higher value will deepen the extraction, and a lower one will soften it.
 - Each audio is different, so you'll have to test the ideal value.
@@ -520,7 +520,7 @@ This determines the depth of the extraction.
 
 ==- *I can't remove some of the backing vocals.*
 ###### ‎ 
-- Try running the audio through MDX23C or DeNoise. Modify the Aggression Setting if necessary.
+- Try running the audio through MelBand Karaoke or BVE. Modify the Aggression Setting if necessary.
 ===
 
 ==- *I couldn't find my answer.*
@@ -547,10 +547,10 @@ Noise | VR | UVR-DeNoise
 +++ MVSEP
 Extraction | Separation Type | Model
 :---: | :---: | :---:
-Vocals/Instrumental | MDX23C | - 
-Reverb | Ultimate Vocal Remover 5 HQ | UVR-DeEcho-DeReverb
-Main Vocals | Ultimate Vocal Remover 5 HQ | UVR-BVE-4B_SN-44100-1
-Noise | Ultimate Vocal Remover 5 HQ | UVR-DeNoise
+Vocals/Instrumental | BS Roformer | ver 2024.08
+Reverb | Reverb Removal | Reverb removal by anvuew (BS Roformer)
+Main Vocals | MelBand Karaoke | Extract from vocals
+Noise | DeNoise by aufr33  | Aggresive 
 
 +++
 ***
