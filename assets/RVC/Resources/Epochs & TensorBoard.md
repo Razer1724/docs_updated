@@ -143,12 +143,18 @@ For <u>[RVC Disconnected</u>](https://docs.ai-hub.wtf/rvc/cloud/rvc-disconnected
 - Use the model that was **closest** to ***before*** the OT point.      
     For more information, check the guide for your RVC in this website.
 
-+++ Advanced Guide
-:::content-center
-‎   
-:icon-alert: ~ ***Work in progress.*** ~ :icon-alert:
-:::
-+++
++++ Advanced Guide ‎     
+#### :icon-chevron-down: <u>Other Graphs</u>
+***
+- The other graphs within RVC are.     
+1. FM (Feature Matching). FM shows how well the model is able to recreate the features of the audio (lower equals better).
+
+2. kl (Kullback-Leibler). Kl shows how similer the audio sounds to the source (lower equals better).
+
+3. Mel. Mel shows how well the model can recreate the mel spectrogram (lower equals better).
+
+
+ADD MORE. Photos maybe, grads, mel images.
 
 ***
 ###### ‎
