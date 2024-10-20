@@ -13,7 +13,7 @@ order: 4000
 
 - **In the context of RVC**, it's an audio file that's given to RVC, containing the voice the model is going to replicate. It can be either a speaking or singing voice.
 
-- The **quality** & **length** of the dataset are the biggest determining factors of the final quality of the model. Let's explain.
+- The **quality** & **variety** of the dataset are the biggest determining factors of the final quality of the model. Let's explain.
 ***
 ###### ‎
 :::content-center
@@ -47,22 +47,29 @@ order: 4000
 - The most inportant part of a clean dataset, is if your audio is damaged RVC will struggle with it, cause mode collapses and make it overall sound worse so make sure your audio isn't damged.  
 ‎   
 ***
+:::content-center
+## Variety
+:::
+- Variety is important because without it RVC lacks the ability to generate diverse audio. 
+
+EXPAND ON THIS
+***
 ###### ‎
 :::content-center
 ## Cleaning
 :::
 1. First, clean the undesired noises explained before using a <u>[vocal isolation](https://docs.ai-hub.wtf/rvc/resources/vocal-isolation/)</u> software.     
 ***   
-2. Then, to remove silences, distortion & minimize (even more) noise, we'll use tools from <u>[Audacity</u>](https://www.audacityteam.org/download/). A free, simple & very light-weighted <u>[DAW](https://docs.ai-hub.wtf/extra/glossary/#daw)</u>.            
+2. Then, to remove silences we'll use the free version of <u>[Renegate<u>](https://www.auburnsounds.com/products/Renegate.html) and <u>[Audacity</u>](https://www.audacityteam.org/download/) as our daw.            
     ‎     
 
     {.list-icon}  
     #### Step 1: Noise Gate.   
-    - First input your dataset by dragging the audio file into the app.     
+    - First input your dataset by dragging the audio file into the your daw of choice, for this example we will use Audacity.     
 
     - Press CTRL + A to select the whole audio.       
 
-    - Navigate to the ``Effect`` menu at the top, go to `Noise removal and Repair` and select ``Noise Gate``.
+    - Navigate to the ``Effect`` menu at the top, go to `Renegate` and click it.
 
     - Use these values & apply the changes:      
     ‎       
@@ -77,7 +84,7 @@ order: 4000
     <img src="../datasets-img/6.png" alt="image" width="420" height="auto">    
     ***
     ‎
-    #### Step 3: Audio Normalization.    
+    #### Step 3: Audio Normalization. (Optional)    
     - Go go to Effects -> Volume and Compression -> Normalization
     - Use these values:     
 ‎       
