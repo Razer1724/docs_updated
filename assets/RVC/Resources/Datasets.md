@@ -73,7 +73,7 @@ EXPAND ON THIS
 
     - Use these values & apply the changes:      
     ‎       
- <img src="../datasets-img/1.png" alt="image" width="420" height="auto">   
+ <img src="../datasets-img/img-1.png" alt="image" width="420" height="auto">   
     ***
     ###### ‎
     #### Step 2: Truncating Silence.    
