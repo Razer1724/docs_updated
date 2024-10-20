@@ -19,7 +19,7 @@ order: 1000
 - General information about the model.
 - General information about its training process.      
 - A Hugging Face account.     
-- At least 1 audio sample of the model **<u>WITH NO MUSIC</u>**.     
+- At least 1 raw audio sample of the model **<u>WITH NO MUSIC</u>**.     
 |||
 :::
 
@@ -27,13 +27,19 @@ order: 1000
 :::content-center
 ###### ‎ 
 ## Things to Avoid :icon-x:
-##### ``This will disqualify your post``
+##### ``These will disqualify your post``
 :::
 ‎
 :   ‎
 :::
 #### :icon-chevron-right: It lacks the correct files.
-- The .ZIP file must contain both the **correct** `.INDEX` & `.PTH` file. Learn about them <u>[here](https://docs.ai-hub.wtf/essentials/voice-models/#voice-model-files)</u>.
+- The .ZIP file must contain both the **correct** `.INDEX` & `.PTH` file.
+
+- The correct .index is the one named `added_`. 
+     - The added index contains the voice's accent and speech manor.
+
+- The correct .pth is the one that has your model's name, like example: `TylerSwift_e60_s120.pth` 
+     - The .pth contains the actual model and pitch data. 
 ***
 ###### ‎ 
 #### :icon-chevron-right: Model is low quality.
@@ -46,11 +52,12 @@ order: 1000
    - Has slurred speech.
    - Is unable of pronouncing words correctly in its intended language.
    - Has <u>[artifacting](https://docs.ai-hub.wtf/rvc/resources/artifacting/)</u>.
+   - Has noise.
 ***
 ###### ‎ 
 #### :icon-chevron-right: An outdated extraction method was used.
 {.list-icon}
-- :icon-check-circle: Only **Crepe, **Mangio-Crepe** & **RMVPE** are allowed. Learn about them <u>[here](https://docs.ai-hub.wtf/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>
+- :icon-check-circle: Only **Mangio-Crepe** & **RMVPE** are allowed. Learn about them <u>[here](https://docs.ai-hub.wtf/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>
 
 - :icon-x-circle: Harvest, Dio, Crepe-Tiny, PM, etc. are obsolete.
 
@@ -66,6 +73,12 @@ order: 1000
 - Don't add reverb, equalize, or alter the demo in any way, as it won't be a faithful representation of the model. It must be the raw, unmodified output from the inference.
 
 - Trimming silences at the beginning/end of the audio demo is allowed. :icon-check-circle: 
+###### ‎  
+***
+#### :icon-chevron-right: Is a robotic or non-human voice.
+- Robotic, sound effect and drum models will also be rejected, because with these types of voices it is difficult to determine if you know how to clean a dataset properly.
+
+- However once you get model maker you will be able to post robotic, sound effect or drum models.
 ###### ‎  
 ***
 ###### ‎
