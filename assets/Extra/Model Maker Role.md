@@ -4,7 +4,7 @@ icon: chevron-right
 order: 1000
 ---
 
-``Last update: May 20, 2024``
+``Last update: October 20, 2024``
 ***
 ###### ‎ 
 :::content-center
@@ -14,8 +14,8 @@ order: 1000
 :::
 ###### ‎
 ||| <u> REQUIREMENTS </u>
-- Model's <u>[**.PTH**](https://docs.ai-hub.wtf/essentials/voice-models/#voice-model-files)</u> file.        
-- Model's <u>[**.INDEX**](https://docs.ai-hub.wtf/essentials/voice-models/#voice-model-files)</u> file.      
+- Model's **.PTH** file.        
+- Model's **.INDEX** file.      
 - General information about the model.
 - General information about its training process.      
 - A Hugging Face account.     
