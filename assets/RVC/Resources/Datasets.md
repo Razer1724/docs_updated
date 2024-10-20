@@ -19,11 +19,11 @@ order: 4000
 :::content-center
 ## Length
 :::
-- For beginners we recommend sticking with **10 minutes**, or **20** if you want it very high quality.        
+- For beginners we recommend sticking with **15 minutes**, or **30**+ minutes of diverse audio if you want it very high quality and natural sounding.        
 
-- If you wish to go for more, keep in mind, usually anything further than 40 minutes isn't necessary.      
+- If you wish to go for more, keep in mind, usually anything further than 45 minutes isn't necessary.      
 
-- With modern versions of RVC, the dataset can be just a single audio file, no need to split it in multiple files.  
+- The dataset can be just a single audio file or it can be split into multiple files to help prevent mode collapses.  
 ***
 ###### ‎
 :::content-center
@@ -42,6 +42,9 @@ order: 4000
 ‎   
 #### :icon-chevron-down: No sibilance/popping.
 - Additionally, don't include harsh sibilance (loud "S" & "SH" pronunciation) or popping sounds (loud "P" sound).   
+
+#### :icon-chevron-down: Audio Damage.
+- The most inportant part of a clean dataset, is if your audio is damaged RVC will struggle with it, cause mode collapses and make it overall sound worse so make sure your audio isn't damged.  
 ‎   
 ***
 ###### ‎
