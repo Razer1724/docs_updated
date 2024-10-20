@@ -38,7 +38,7 @@ order: 1000
 - The correct .index is the one named `added_`. 
      - The added index contains the voice's accent and speech manor.
 
-- The correct .pth is the one that has your model's name, like example: `TylerSwift_e60_s120.pth` 
+- The correct .pth is the one that has your model's name, for example: `TylerSwift_e60_s120.pth` 
      - The .pth contains the actual model and pitch data. 
 ***
 ###### ‎ 
