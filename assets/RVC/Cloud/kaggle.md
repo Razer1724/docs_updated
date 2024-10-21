@@ -12,28 +12,15 @@ order: 1000
 
 ## ‎ 
 ## Introduction  
-- Paperspace is a cloud-based platform for using AI apps, powered by virtual machines with powerful GPU's.     
+- Kaggle is a cloud platform for using AI apps, powered by virtual machines with powerful GPU's.     
 
-- It's a great alternative for training RVC voice models through the cloud, since it's even faster than Google Colab.
-
-- Making this platform one of the most competent counterparts to Colab, if you don't mind paying a monthly subscription.      
-***
-###### ‎   
-## Important Notes
-1. Although Paperspace has a free plan, you can't do much with it, it's more convenient to buy its **Pro** or **Growth** plan.
-
-3. There have been people who had to try a couple of times before Paperspace accepted their card. Be patient if that happens to you.
-
-3. Aditionally, you can pay hourly for **faster** GPU's instead of using the free ones by default.    
-This is optional, the paid plans are fast enough.
+- It's a great alternative for training RVC voice models through the cloud, since it has the best GPUs.    
 ***
 ###### ‎   
 ## How to Use   
 ###### ‎   
 #### 1. <u>Set up account.</u>
-a. Start by making an account <u>[here</u>](https://console.paperspace.com/signup).
-
-b. Buy a plan in the `Platform Plans` section on the right <u>[here</u>](https://www.paperspace.com/pricing).
+a. Start by making an account <u>[here</u>](https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F).
 
    <img src="../paperspace-img/3.png" alt="image" width="575" height="auto">      
 
