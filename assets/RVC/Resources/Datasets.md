@@ -43,8 +43,8 @@ order: 4000
 #### :icon-chevron-down: No sibilance/popping.
 - Additionally, don't include harsh sibilance (loud "S" & "SH" pronunciation) or popping sounds (loud "P" sound).   
 
-#### :icon-chevron-down: Audio Damage.
-- The most inportant part of a clean dataset, is if your audio is damaged RVC will struggle with it, cause mode collapses and make it overall sound worse so make sure your audio isn't damged.  
+#### :icon-chevron-down: No Audio Damage.
+- The most inportant part of a clean dataset, if your audio is damaged RVC will struggle with it causing mode collapses and make it overall sound worse so make sure your audio isn't damged.  
 ‎   
 ***
 :::content-center
