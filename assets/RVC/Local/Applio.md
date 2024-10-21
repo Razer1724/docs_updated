@@ -245,7 +245,7 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 - Frequency of the <u>[saving checkpoints](https://docs.ai-hub.wtf/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://docs.ai-hub.wtf/rvc/resources/epochs--tensorboard/)</u>.      
 ‎   
-- If you are a newbie, simply leave it at `15`.              
+- If you are a newbie, simply leave it at `15`, but if you wish to be percise set it to `1`.              
 
     <img src="..\applio-img\4-freq.png" alt="image" width="420">‎   
 ‎   
@@ -262,19 +262,28 @@ It'll finish when it says `extracted successfully`.
     <img src="..\applio-img\4-epoch.png" alt="image" width="420">‎   
 ***
 ###### ‎  
-##### d. GPU Settings
+##### d. Sync Graphs
+###### ‎  
+- Sync graphs trains a single epoch and sets the log interval to the amount of steps that epoch trained for.     
+‎   
+- Doing this makes the Tensor Board's graphs accurate.
+
+    <img src="..\applio-img\sync-graph.png" alt="image" width="420">‎   
+***
+###### ‎  
+##### e. GPU Settings
 ###### ‎  
 - If you have multiple GPUs, tick `GPU Settings` to use a specific one for the training.
 
    <img src="../applio-img/4-gpu.png" alt="image" width="440" height="auto">‎ 
 ***
 ###### ‎  
-##### e. Generate Index
+##### f. Generate Index
 ###### ‎  
 - Click `Generate Index`. This will create the model's <u>[.INDEX](https://docs.ai-hub.wtf/essentials/voice-models/#voice-model-files)</u> file.
 ***
 ###### ‎  
-##### f. Start Training
+##### g. Start Training
 ###### ‎  
 - Press `Start Training` to begin the training process.     
 ‎   
