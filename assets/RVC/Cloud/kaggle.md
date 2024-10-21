@@ -17,36 +17,34 @@ order: 1000
 - It's a great alternative for training RVC voice models through the cloud, since it has the best GPUs.    
 ***
 ###### ‎   
-## How to Use   
+## How to Setup   
 ###### ‎   
 #### 1. <u>Set up account.</u>
-a. Start by making an account <u>[here</u>](https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F).
+a. Start by making an account [here](https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F).
 
-   <img src="../paperspace-img/3.png" alt="image" width="575" height="auto">      
+   <img src="../paperspace-img/3.png" alt="image" width="575" height="auto">
 
-***
-###### ‎   
-#### 2. <u>Create notebook.</u>
-a. Make sure you are in the ``Gradient`` tab, and click the `CREATE` button.
+b. Verify your acount with a phone number so you can turn on "internet" option.      
+ ‎   
+######
+#### 2. <u>Clone notebook and setup.</u>
+a. Go to [Hina's mainline notebook](https://www.kaggle.com/code/hinabl/mainline) and click "Copy and Edit"
 
    <img src="../paperspace-img/5.png" alt="image" width="200" height="auto"> 
-        ‎       
-   <img src="../paperspace-img/4.png" alt="image" width="150" height="auto">           
-###### ‎     
-b. Make sure there are free GPU's available, and below select the number of hours you want the notebook to remain active.
+        ‎                 ‎     
+b. Under session settings in the sidebar turn on "internet". Make sure persistance is on for both files and varibles.
 
    <img src="../paperspace-img/6.png" alt="image" width="450" height="auto">     
-###### ‎  
-c. Then click ``START NOTEBOOK``.           
-You'll find yourself in a screen like this:
+‎  
+c. Turn on T4 X2 GPUs in accelerator.           
 
    <img src="../paperspace-img/7.png" alt="image" width="" height=""> 
+d: (Optional) Turn on headless mode so you can run so you can run the GPU on all sessions and save your progress. Your runtime will continue draining when you're not running any cells. 
+
 ***
 ###### ‎   
-#### 3. <u>Install Mangio.</u>
+#### 3. <u>Ngrok.</u>
 a. Copy this, paste it in the Terminal and hit enter:      
-
-        wget https://huggingface.co/lollenape/LollenApeRVC/resolve/main/install.py 
 ‎       
 b. Once it's done installing, open the `paper.ipynb` file.
 
