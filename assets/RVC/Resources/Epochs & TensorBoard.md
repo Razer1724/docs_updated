@@ -153,9 +153,16 @@ For <u>[RVC Disconnected</u>](https://docs.ai-hub.wtf/rvc/cloud/rvc-disconnected
 
 3. Mel. Mel shows how well the model can recreate the mel spectrogram (lower equals better).
 
+4. Grad_g. This shows how well the model is capable of making new stuff (lower equals better).
+***
+#### :icon-chevron-down: <u>Mel Images</u>
+***
+- While looking through the Tensor Board you may come across `slice/mel_gen` and `slice/mel_org`. 
+     - `slice/mel_gen` Is an image of a mel spectrogram that the generator created in attempt to make it match `mel_org`.
+     <img src="../tensorboard-img/mel_gen.png" alt="image" width="400" height="auto">‎ 
 
-ADD MORE. Photos maybe, grads, mel images.
-
+     - `slice/mel_org` Is an image of a mel spectrogram view of audio from your dataset. 
+     <img src="../tensorboard-img/mel_og.png" alt="image" width="400" height="auto">‎ 
 ***
 ###### ‎
 :::content-center
