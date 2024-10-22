@@ -24,8 +24,9 @@ a. Start by making an account [here](https://www.kaggle.com/account/login?phase=
 
    <img src="../paperspace-img/3.png" alt="image" width="575" height="auto">
 
-b. Verify your acount with a phone number so you can turn on "internet" option.      
- ‎   
+b. Verify your acount with a phone number so you can turn on the "internet" option.      
+ 
+***‎   
 ######
 #### 2. <u>Clone notebook and setup.</u>
 a. Go to [Hina's mainline notebook](https://www.kaggle.com/code/hinabl/mainline) and click "Copy and Edit"
@@ -41,69 +42,46 @@ c. Turn on T4 X2 GPUs in accelerator.
    <img src="../paperspace-img/7.png" alt="image" width="" height=""> 
 d: (Optional) Turn on headless mode so you can run so you can run the GPU on all sessions and save your progress. Your runtime will continue draining when you're not running any cells. 
 
+<img src="../paperspace-img/7.png" alt="image" width="" height=""> 
+
 ***
 ###### ‎   
 #### 3. <u>Ngrok.</u>
-a. Copy this, paste it in the Terminal and hit enter:      
+a. Scroll down to the fifth cell and you should see a section where you put your ngrok token. If you dont have a ngrok acount sign up [here](https://ngrok.com/).       
 ‎       
-b. Once it's done installing, open the `paper.ipynb` file.
+     2. Once you have an acount you can authenticate your ngrok tunnel agent here: https://dashboard.ngrok.com/get-started/your-authtoken
 
    <img src="../paperspace-img/8.png" alt="image" width="650" height=""> ‎      
 ‎       
-c. Execute the `INSTALL EVERYTHING` cell.
+b. put the Ngrok token in the quotation marks like so:
 
    <img src="../paperspace-img/9.png" alt="image" width="430" height=""> ‎   
 ‎               
-d. Once that one is done, execute the ``START GUI`` one.    
-Then you can start using Mangio.
+c. There is a monthly limit rate with Ngrok so dont be supprised if training is suddenly interrupted.
 
-   <img src="../paperspace-img/10.png" alt="image" width="430" height=""> ‎ 
-‎               
-‎       
-!!! <u>Notes about training:</u>
-**1.** To create the dataset folder, open the notebook, right click the ``Mangio-RVC-Fork`` folder, click `New folder`, name it `dataset`, and put your dataset there.    
-‎       
-**2.** If you get an error when you click ``Process data``, don't worry, it's a visual glitch. Keep working as usual.   
-!!!
-‎           
-### Opening TensorBoard
-To run TensorBoard while using RVC you'll have to do it on a separate terminal.         
-
-a. Go to your notebook and open a new terminal by clicking the Terminal symbol ( :icon-terminal: ) on the right.
-
-b. Then introduce this:
-
-        cd/notebooks/Mangio-RVC-Fork
-        make TensorBoard
-        
 ***
 ###### ‎   
-:::content-center
-## Comparison With Colab
-:::
-###### ‎
->###### ‎
->:::content-center
-><img src="../paperspace-img/11.png" alt="image" width="600" height=""> ‎   
->:::
->‎         
->‎       
->*"The main difference lies in the model training process, as the GPUs available on Paperspace are more powerful.         
-‎       
-You can achieve training speeds that are approximately 3 times faster compared to Colab, which translates to saving a significant amount of time.               
-‎       
-So, if you were to train a model with a dataset that takes around an hour and a half (1:30) on Paperspace, it would take approximately three and a half hours (3:30).       
-‎       
-On the other hand, on Colab, it might take around 7 hours (without considering the account switching)."*         
->***
->:::content-right
->``- Picture & quote by LollenApe``    
->:::     
->‎        
->‎    
+#### 3. <u>Starting the Cells.</u>
+a. From top to bottom execute all the cells.
 
+ <img src="../paperspace-img/9.png" alt="image" width="430" height=""> 
+
+b. The second cell will take ~5 minutes to load.
+
+<img src="../paperspace-img/9.png" alt="image" width="430" height=""> 
+when its finished it will look like this:
+<img src="../paperspace-img/9.png" alt="image" width="430" height=""> 
+
+c. Once you run the final cell it will give you three links.
+
+<img src="../paperspace-img/9.png" alt="image" width="430" height=""> 
+
+RVC url is to open RVC's gui.
+File url is to open Imjoy Elfinder gui.
+Tensorboard is to open the Tensorboard.
+        
 ***
-###### ‎
+###### ‎   ‎
 :::content-center
 #### `You have reached the end.`
 
