@@ -62,8 +62,6 @@ icon: home-fill
 ###### ‎     
 ## To-Do :icon-checklist:
 
-- Advanced training
 - Pretrains
-- Kaggle
 
 ***
