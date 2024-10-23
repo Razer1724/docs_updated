@@ -62,6 +62,5 @@ icon: home-fill
 ###### ‎     
 ## To-Do :icon-checklist:
 
-- Pretrains
-
+- expand on stuff
 ***
