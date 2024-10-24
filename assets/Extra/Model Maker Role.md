@@ -140,7 +140,7 @@ c. Tap on `Commit changes to main` & the model will begin to upload.
 ***
 ###### ‎
 #### Step 3: Prepare the submission.
-- Once your model is ready, head over to the **#get-model-maker** channel.  
+- Once your model is ready, head over to the **#be-model-maker** channel.  
 
 - Type the `/submit` command of **QCBot** and click the command.       
 

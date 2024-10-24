@@ -44,7 +44,7 @@ order: 4000
 ‎   
 #### :icon-chevron-down: No sibilance/popping.
 - Additionally, don't include harsh sibilance (loud "S" & "SH" pronunciation) or popping sounds (loud "P" sound).   
-
+‎  
 #### :icon-chevron-down: No Audio Damage.
 - The most inportant part of a clean dataset, if your audio is damaged RVC will struggle with it causing mode collapses and make it overall sound worse so make sure your audio isn't damged.  
 ‎   
@@ -55,7 +55,7 @@ order: 4000
 :::
 1. First, clean the undesired noises explained before using a <u>[vocal isolation](https://docs.ai-hub.wtf/rvc/resources/vocal-isolation/)</u> software.     
 ***   
-2. Then, to remove silences we'll use the free version of <u>[Renegate<u>](https://www.auburnsounds.com/products/Renegate.html) and <u>[Audacity</u>](https://www.audacityteam.org/download/) as our daw.            
+2. Then, to remove silences we'll use the free version of [Renegate](https://www.auburnsounds.com/products/Renegate.html) and <u>[Audacity</u>](https://www.audacityteam.org/download/) as our daw.            
     ‎     
 
     {.list-icon}  
@@ -68,7 +68,7 @@ order: 4000
 
     - Use these values & apply the changes:      
     ‎       
- <img src="../datasets-img/img-1.png" alt="image" width="420" height="auto">   
+ <img src="../datasets-img/img-1.png" alt="image" width="600" height="auto">   
     ***
     ###### ‎
     #### Step 2: Truncating Silence.    

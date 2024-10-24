@@ -201,6 +201,65 @@ Click the `Start processing` button at the bottom. And that will be all.
 ###### ‎ 
 ###### ‎ 
 :::content-center
+## X-Minus Pro
+‎ 
+:   ‎ 
+:::
+
+### How to Use :icon-checklist:
+
+***
+
+!!!warning
+Most of the extraction model are behind a pay wall.
+!!!
+
+==- *Extrating Vocals From Songs* 🎶
+###### 
+#### 1. Choose a Separator
+######
+a. First go to [X-minus's website](https://x-minus.pro) and click the "Vocal Remover" at the top right. 
+
+<img src="../x-minus-img/1.png" alt="image" width="400" height="auto"> 
+
+b. Then select "Music and vocals" and choose "Bs Roformer"
+  
+<img src="../x-minus-img/2.png" alt="image" width="400" height="auto">
+
+***
+#### 2. Upload Your Audio File
+
+c. Then click "select a file" and choose a audio file, or you can drag and drop a file. And when it's done it will look like this: 
+
+<img src="../x-minus-img/2.png" alt="image" width="400" height="auto">
+
+d. You can now click "Vocals" to download the vocals and "Other" to download the instrumentals.
+
+===
+
+==- *Cleaning Vocals* 🗣️
+######
+#### 1. Choose a De-Noiser
+######
+a.  In "De-Noise" select "Mel-Roformer De-Noise". You can also check the [model list](https://docs.ai-hub.wtf/rvc/resources/vocal-isolation/#best-models) to see what is the best model for your needs.
+
+<img src="../x-minus-img/3.png" alt="image" width="400" height="auto">
+
+***
+#### 2. Upload Your Audio File
+
+c. Then click "select a file" and choose a audio file, or you can drag and drop a file. And when it's done it will look like this: 
+
+<img src="../x-minus-img/2.png" alt="image" width="400" height="auto">
+
+d. You can now click "Vocals" to download the vocals and "Other" to download the instrumentals.
+
+===
+
+
+
+###### ‎ 
+:::content-center
 ## Cloud UVR
 ‎ 
 :   ‎ 
@@ -370,16 +429,23 @@ b. Playable audios will then appear in the output boxes below. To download the o
 
 ***
 
-###### ‎ 
-## HuggingFace Space
+######
+:::content-center
+## UVR Zero GPU 
 :::
-‎ 
-: 
- ‎ 
-#### 1. Using HuggingFace Space
+***
+###### ‎  
+######
+
+## How to use :icon-checklist:
+
+***
+
+==- Extract vocals
 ###### ‎
-a. Access the space [here](https://huggingface.co/spaces/TheStinger/UVR5_UI), you don't need an account to use this.           
-‎    
+
+Access the space [here](https://huggingface.co/spaces/TheStinger/UVR5_UI), you don't need an account to use this.           
+    
 #### 2. Select vocals & options
 ###### ‎  
 a. Tap the **Input Audio** box & select your audio, or simply drag & drop.     
@@ -395,7 +461,7 @@ b. Once it's done uploading, in **CHOOSE PROCESS METHOD**, select ``BS/Mel Rofor
 c. under that you can change **Segment Size** and **Overlap**, the defaults are fine.             
 ‎    
 <img src="../hugging-img/2.png" alt="image" width="300" height="auto">‎ 
-*** 
+
 ‎ 
 #### 3. Select model
 ###### ‎  
@@ -403,7 +469,6 @@ d. Check the <u>[model list](https://docs.ai-hub.wtf/rvc/resources/vocal-isolati
 ‎       
 If you need to remove multiple noises, follow this pipeline for the best results:   
 ``Remove instrumental -> Remove reverb -> Extract main vocals -> Remove noise``  
-***
 ‎  
 #### 4. Start Processing
 ###### ‎  
@@ -412,7 +477,6 @@ a. Click **Spererate!** below. Wait a moment for the audio to process.
 b. Playable audios will then appear in the output boxes below. To download the output, click the three dots on the right and `Download`.            
      
 - If you're extracting lead vocals, remember to download the backing ones if you wish to keep them.     
-
 ===
 
 !!!success
@@ -458,9 +522,11 @@ b. Playable audios will then appear in the output boxes below. To download the o
 ***
 ###### ‎ 
 ### Useage
-2. To use RX 11 it is **STONGLY** recommended that you read this <u>[guide<u>](https://rentry.co/RVC-dataset-RX11) on RX 11.
+2. To use RX 11 it is **STONGLY** recommended that you read this [guide](https://rentry.co/RVC-dataset-RX11) on RX 11.
 ***
-###### ‎       
+
+###### ‎  
+:::content-center     
 ## MVSEP
 :::
 ‎      
@@ -637,6 +703,14 @@ Vocals/Instrumental | BS Roformer | ver 2024.08
 Reverb | Reverb Removal | Reverb removal by anvuew (BS Roformer)
 Main Vocals | MelBand Karaoke | Extract from vocals
 Noise | DeNoise by aufr33  | Aggresive 
+
++++ X-Minus
+Extraction | Model
+:---: | :---: 
+Music and Vocals | BS Roformer
+De-Reverb | MDX23C (De-Reverb)
+Extract Backing Vocals | UVR BVE 2 
+De-Noise | Mel Roformer De-Noise 
 
 +++
 ***
