@@ -154,6 +154,9 @@ For <u>[RVC Disconnected</u>](https://docs.ai-hub.wtf/rvc/cloud/rvc-disconnected
 3. Mel. Mel shows how well the model can recreate the mel spectrogram (lower equals better).
 
 4. Grad_g. This shows how well the model is capable of making new stuff (lower equals better).
+
+5. d/total. This shows the discriminator's average loss. The discriminator tells the difference between what's Ai generated and what's not. (Lower is better).
+
 ***
 #### :icon-chevron-down: <u>Mel Images</u>
 ***
