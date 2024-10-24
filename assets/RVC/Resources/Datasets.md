@@ -24,6 +24,8 @@ order: 4000
 - If you wish to go for more, keep in mind, usually anything further than 45 minutes isn't necessary.      
 
 - The dataset can be just a single audio file or it can be split into multiple files to help prevent mode collapses.  
+
+- Variety in you audio is also important because without it RVC lacks the ability to generate diverse audio. 
 ***
 ###### ‎
 :::content-center
@@ -46,13 +48,6 @@ order: 4000
 #### :icon-chevron-down: No Audio Damage.
 - The most inportant part of a clean dataset, if your audio is damaged RVC will struggle with it causing mode collapses and make it overall sound worse so make sure your audio isn't damged.  
 ‎   
-***
-:::content-center
-## Variety
-:::
-- Variety is important because without it RVC lacks the ability to generate diverse audio. 
-
-EXPAND ON THIS
 ***
 ###### ‎
 :::content-center
