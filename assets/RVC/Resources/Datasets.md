@@ -25,7 +25,7 @@ order: 4000
 
 - The dataset can be just a single audio file or it can be split into multiple files to help prevent mode collapses.  
 
-- Variety in you audio is also important because without it RVC lacks the ability to generate diverse audio. 
+- Variety in your audio is also important because without it RVC lacks the ability to generate diverse audio. 
 ***
 ###### ‎
 :::content-center
