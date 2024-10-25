@@ -32,6 +32,7 @@ order: 5000
 - Has an active development
 - Currently stable
 - Faster interface
+- Faster Training
 - TTS features            
 - Automatic model upload
 - Has Mangio-Crepe
