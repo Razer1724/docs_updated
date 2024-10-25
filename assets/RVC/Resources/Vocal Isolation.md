@@ -220,18 +220,18 @@ Most of the extraction model are behind a pay wall.
 ######
 a. First go to [X-minus's website](https://x-minus.pro) and click the "Vocal Remover" at the top right. 
 
-<img src="../x-minus-img/1.png" alt="image" width="400" height="auto"> 
+<img src="../x-minus-img/1.png" alt="image" width="600" height="auto"> 
 
 b. Then select "Music and vocals" and choose "Bs Roformer"
   
-<img src="../x-minus-img/2.png" alt="image" width="400" height="auto">
+<img src="../x-minus-img/2.png" alt="image" width="600" height="auto">
 
 ***
 #### 2. Upload Your Audio File
 
 c. Then click "select a file" and choose a audio file, or you can drag and drop a file. And when it's done it will look like this: 
 
-<img src="../x-minus-img/2.png" alt="image" width="400" height="auto">
+<img src="../x-minus-img/2.png" alt="image" width="600" height="auto">
 
 d. You can now click "Vocals" to download the vocals and "Other" to download the instrumentals.
 
@@ -243,14 +243,14 @@ d. You can now click "Vocals" to download the vocals and "Other" to download the
 ######
 a.  In "De-Noise" select "Mel-Roformer De-Noise". You can also check the [model list](https://docs.ai-hub.wtf/rvc/resources/vocal-isolation/#best-models) to see what is the best model for your needs.
 
-<img src="../x-minus-img/3.png" alt="image" width="400" height="auto">
+<img src="../x-minus-img/3.png" alt="image" width="600" height="auto">
 
 ***
 #### 2. Upload Your Audio File
 
 c. Then click "select a file" and choose a audio file, or you can drag and drop a file. And when it's done it will look like this: 
 
-<img src="../x-minus-img/2.png" alt="image" width="400" height="auto">
+<img src="../x-minus-img/2.png" alt="image" width="600" height="auto">
 
 d. You can now click "Vocals" to download the vocals and "Other" to download the instrumentals.
 
