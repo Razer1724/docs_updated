@@ -50,7 +50,7 @@ visibility:
 ==- *What's the best fork?*
 ###### ‎       
 - As explained before, it depends on your needs. It's best to try them yourself.
-- For **local** users, <u>[Mainline](https://docs.ai-hub.wtf/rvc/local/mainline/)</u> is a great starting point. For **cloud** users you can use either the <u>[Applio Colab](https://docs.ai-hub.wtf/rvc/cloud/applio-colab/)</u> or <u>[mainline kaggle](https://docs.ai-hub.wtf/rvc/cloud/kaggle/)<u>.
+- For **local** users, <u>[Mainline](https://docs.ai-hub.wtf/rvc/local/mainline/)</u> is a great starting point. For **cloud** users you can use either the <u>[Applio Colab](https://docs.ai-hub.wtf/rvc/cloud/applio-colab/)</u> or [mainline kaggle](https://docs.ai-hub.wtf/rvc/cloud/kaggle/).
 ===
 
 ==- *What are the requirements for RVC locally?*
@@ -86,7 +86,7 @@ Storage | 6 GB
 ###### ‎  
 - You can, but it's going to be slower, as they don't have CUDA cores.
 - So it's more convenient using RVC through the <u>[cloud](https://docs.ai-hub.wtf/extra/glossary/#cloud-based)</u>.
-- If you're willing to use a slower version you can go ahead and follow this guide on how to get zluda working with <u>[Applio](https://docs.applio.org/getting-started/installation#amd-gpu-support-windows)<u>.
+- If you're willing to use a slower version you can go ahead and follow this guide on how to get zluda working with [Applio](https://docs.applio.org/getting-started/installation#amd-gpu-support-windows).
 === 
 
 ==- *How long does it take to train?*

@@ -77,6 +77,10 @@ c. Once the cell is done loading, in GD go to the ``rvcDisconnected`` folder, an
 
     <img src="../rvcdisconnected-img/5.png" alt="image" width="335" height="auto">‎    
 
+d. (Optional) Download a custom pretrain by using the dropdown to select one, then run the cell to download the pretrain. If the pretrain you want to use isn't in the menu simply select custom then put the D and G download link into the corresponding text box.
+
+<img src="../rvcdisconnected-img/pretrain.png" alt="image" width="450" height="auto">
+
 ***
 ###### ‎ 
 ###### ‎ 
