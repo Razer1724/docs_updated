@@ -54,7 +54,7 @@ icon: home-fill
 ## Credits :icon-heart:
 - **Lead by:** Julia & Eddy
 - **General Help:** Poopmaster Raid, Light, Faze Masta, Alexolotl, Delik, Razer
-- **Reviewing:** Faze Masta, Alexolotl, SimplCup, Delik, Litsa
+- **Reviewing:** Faze Masta, Alexolotl, SimplCup, Delik, Litsa, Lyery, Razer
 - **OG Guides:** Litsa, Angetyde, LollenApe, Faze Masta, MrM0dz, FDG, Eddy, Julia, Nick
 - **Backend:** Eddy & Yui
 - **Branding:** Grvyscale & Cthulhu
@@ -62,5 +62,5 @@ icon: home-fill
 ###### ‎     
 ## To-Do :icon-checklist:
 
-- expand on stuff
+- Nothing :smile:
 ***

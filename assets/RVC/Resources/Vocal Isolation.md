@@ -231,7 +231,7 @@ b. Then select "Music and vocals" and choose "Bs Roformer"
 
 c. Then click "select a file" and choose a audio file, or you can drag and drop a file. And when it's done it will look like this: 
 
-<img src="../x-minus-img/2.png" alt="image" width="600" height="auto">
+<img src="../x-minus-img/3.png" alt="image" width="600" height="auto">
 
 d. You can now click "Vocals" to download the vocals and "Other" to download the instrumentals.
 
@@ -243,14 +243,14 @@ d. You can now click "Vocals" to download the vocals and "Other" to download the
 ######
 a.  In "De-Noise" select "Mel-Roformer De-Noise". You can also check the [model list](https://docs.ai-hub.wtf/rvc/resources/vocal-isolation/#best-models) to see what is the best model for your needs.
 
-<img src="../x-minus-img/3.png" alt="image" width="600" height="auto">
+<img src="../x-minus-img/4.png" alt="image" width="600" height="auto">
 
 ***
 #### 2. Upload Your Audio File
 
 c. Then click "select a file" and choose a audio file, or you can drag and drop a file. And when it's done it will look like this: 
 
-<img src="../x-minus-img/2.png" alt="image" width="600" height="auto">
+<img src="../x-minus-img/3.png" alt="image" width="600" height="auto">
 
 d. You can now click "Vocals" to download the vocals and "Other" to download the instrumentals.
 
@@ -450,17 +450,12 @@ Access the space [here](https://huggingface.co/spaces/TheStinger/UVR5_UI), you d
 ###### ‎  
 a. Tap the **Input Audio** box & select your audio, or simply drag & drop.     
 ‎        
-    <img src="../hugging-img/21.png" alt="image" width="425" height="auto">‎           
+<img src="../hugging-img/1.png" alt="image" width="1000" height="auto">‎           
 ‎       
 ‎       
-b. Once it's done uploading, in **CHOOSE PROCESS METHOD**, select ``BS/Mel Roformer``.       
+b. Once it's done uploading, in **CHOOSE PROCESS METHOD**, select ``BS/Mel Roformer``. Under that you can change **Segment Size** and **Overlap**, the defaults are fine.   
 ‎   
-<img src="../hugging-img/1.png" alt="image" width="600" height="auto">‎       
-‎       
-‎       
-c. under that you can change **Segment Size** and **Overlap**, the defaults are fine.             
-‎    
-<img src="../hugging-img/2.png" alt="image" width="300" height="auto">‎ 
+<img src="../hugging-img/2.png" alt="image" width="1000" height="auto">‎              
 
 ‎ 
 #### 3. Select model
@@ -474,7 +469,7 @@ If you need to remove multiple noises, follow this pipeline for the best results
 ###### ‎  
 a. Click **Spererate!** below. Wait a moment for the audio to process.       
 ‎       
-b. Playable audios will then appear in the output boxes below. To download the output, click the three dots on the right and `Download`.            
+b. Playable audios will then appear in the output boxes below. To download the output, click the little download icon in the top right.            
      
 - If you're extracting lead vocals, remember to download the backing ones if you wish to keep them.     
 ===
