@@ -43,7 +43,7 @@ You only get 30 free GPU hours per week.
 ## How to Setup   
 ###### ‎   
 #### 1. <u>Set up account.</u>
-a. Start by making an account [here](https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F).
+a. Start by making an account <u>[here](https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F)</u>.
 
    <img src="../kaggle-img/kaggle-sign-in.png" alt="image" width="575" height="auto">
 
@@ -55,7 +55,7 @@ b. Verify your acount with a phone number so you can turn on the "internet" opti
 ***  
 ######
 #### 2. <u>Clone notebook and setup.</u>
-a. Go to [Hina's mainline notebook](https://www.kaggle.com/code/hinabl/mainline) and click "Copy and Edit"
+a. Go to <u>[Hina's mainline notebook](https://www.kaggle.com/code/hinabl/mainline)</u> and click "Copy and Edit"
 
    <img src="../kaggle-img/kaggle-copy.png" alt="image" width="1000" height="auto"> 
 
@@ -71,6 +71,7 @@ d: (Optional) Turn on headless mode so you can run so you can run the GPU on all
 
 <img src="../kaggle-img/kaggle-pers.png" alt="image" width="" height=""> 
 
+‎
 !!!warning Warning
 Your runtime will continue draining when you're not running any cells with this option on. 
 !!!
@@ -78,7 +79,7 @@ Your runtime will continue draining when you're not running any cells with this 
 ***
 ###### ‎   
 #### 3. <u>Ngrok.</u>
-a. Scroll down to the fifth cell and you should see a section where you put your ngrok token. If you dont have a ngrok acount sign up [here](https://ngrok.com/).       
+a. Scroll down to the fifth cell and you should see a section where you put your ngrok token. If you dont have a ngrok acount sign up <u>[here](https://ngrok.com/)</u>.       
 ‎       
      2. Once you have an acount you can authenticate your ngrok tunnel agent here: https://dashboard.ngrok.com/get-started/your-authtoken   
 ‎       

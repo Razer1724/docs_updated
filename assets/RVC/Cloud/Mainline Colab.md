@@ -7,7 +7,7 @@ order: 7000
 
 ***
              
-- Mainline colab is a port of [mainline RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) to <u>[Google Colab</u>](https://docs.ai-hub.wtf/extra/glossary/#google-colab), for exclusively training.
+- Mainline colab is a port of <u>[mainline RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)</u> to <u>[Google Colab</u>](https://docs.ai-hub.wtf/extra/glossary/#google-colab), for exclusively training.
 
 - It's free, includes all the necessary tools for a quality model, the <u>[TensorBoard</u>](https://docs.ai-hub.wtf/rvc/resources/epochs--tensorboard/#tensorboard).   
      
@@ -37,7 +37,7 @@ order: 7000
 ## How to Setup   
 ###### ‎   
 #### 1. <u>Running cells.</u>
-a. Start by accessing the colab [here](https://colab.research.google.com/github/hinabl/RVC-Online/blob/main/Mainline_Colab_Full.ipynb).
+a. Start by accessing the colab <u>[here](https://colab.research.google.com/github/hinabl/RVC-Online/blob/main/Mainline_Colab_Full.ipynb)</u>.
 
 b. Then run the first two cells to install all the requirements.
  
@@ -61,7 +61,7 @@ c. Then in the new cell type in `!wget LINK TO PRETRAIN`
 ***
 ###### ‎   
 #### 3. <u>Ngrok.</u>
-a. Scroll down to the fifth cell and you should see a section where you put your ngrok token. If you don't have a ngrok acount sign up [here](https://ngrok.com/).       
+a. Scroll down to the fifth cell and you should see a section where you put your ngrok token. If you don't have a ngrok acount sign up <u>[here](https://ngrok.com/)</u>.       
 ‎       
      2. Once you have an acount you can authenticate your ngrok tunnel agent here: https://dashboard.ngrok.com/get-started/your-authtoken   
 ‎       

@@ -218,7 +218,7 @@ Most of the extraction model are behind a pay wall.
 ###### 
 #### 1. Choose a Separator
 ######
-a. First go to [X-minus's website](https://x-minus.pro) and click the "Vocal Remover" at the top right. 
+a. First go to <u>[X-minus's website](https://x-minus.pro)</u> and click the "Vocal Remover" at the top right. 
 
 <img src="../x-minus-img/1.png" alt="image" width="600" height="auto"> 
 
@@ -444,7 +444,7 @@ b. Playable audios will then appear in the output boxes below. To download the o
 ==- Extract vocals
 ###### ‎
 
-Access the space [here](https://huggingface.co/spaces/TheStinger/UVR5_UI), you don't need an account to use this.           
+Access the space <u>[here](https://huggingface.co/spaces/TheStinger/UVR5_UI)</u>, you don't need an account to use this.           
     
 #### 2. Select vocals & options
 ###### ‎  

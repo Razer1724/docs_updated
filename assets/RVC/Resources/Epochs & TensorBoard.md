@@ -148,15 +148,15 @@ For <u>[RVC Disconnected</u>](https://docs.ai-hub.wtf/rvc/cloud/rvc-disconnected
 ***
 The other graphs within RVC are:
 
-1. FM (Feature Matching): FM shows how well the model is able to recreate the features of the audio (lower is better).
+1. `FM` (Feature Matching): FM shows how well the model is able to recreate the features of the audio (lower is better).
 
-2. KL (Kullback-Leibler): Kl shows how similer the audio sounds to the source (lower is better).
+2. `KL` (Kullback-Leibler): Kl shows how similar the audio sounds to the source (lower is better).
 
-3. Mel: Mel shows how well the model can recreate the mel spectrogram (lower is better).
+3. `Mel`: Mel shows how well the model can recreate the mel spectrogram (lower is better).
 
-4. Grad_g: This shows how well the model is capable of making new stuff (lower is better).
+4. `Grad_g`: This shows how well the model is capable of making new stuff (lower is better).
 
-5. d/total: This shows the discriminator's average loss. The discriminator tells the difference between what's Ai generated and what's not (lower is better).
+5. `d/total`: This shows the discriminator's average loss. The discriminator tells the difference between what's Ai generated and what's not (lower is better).
 
 ***
 #### :icon-chevron-down: <u>Mel Images</u>

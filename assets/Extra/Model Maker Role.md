@@ -40,6 +40,7 @@ order: 1000
 
 - The correct .pth is the one that has your model's name, for example: `TylerSwift_e60_s120.pth` 
      - The .pth contains the actual model and pitch data. 
+     
 ***
 ###### ‎ 
 #### :icon-chevron-right: Model is low quality.

@@ -10,7 +10,7 @@ order: 5000
 
 - This is a fork of mainline RVC running on Hugging Face Spaces, it’s called this way because it runs on Hugging Face’s ZeroGPU, which currently is an A100 GPU.
 
-- Here is the link to the space [Ilaria RVC Zero](https://huggingface.co/spaces/TheStinger/Ilaria_RVC)
+- Here is the link to the space <u>[Ilaria RVC Zero](https://huggingface.co/spaces/TheStinger/Ilaria_RVC)</u>.
 
 !!!danger
 This space is only for inference which means you can not train a model here.
