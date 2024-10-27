@@ -528,8 +528,8 @@ ZeroGPU HuggingFace Spaces have a quota per account, if you aren’t signed in y
 1. Go to their <u>[official website</u>](https://www.izotope.com/en/shop/rx-11-advanced/?srsltid=AfmBOor--irjtR7Bsl08_bPj-7UMUGd49tYy9C_U2iXOAupjQ74Mat_s) & buy it or sail the seven seas and find a treasure box which contains RX 11. 
 ***
 ###### ‎ 
-### Useage
-2. To use RX 11 it is **STONGLY** recommended that you read this [guide](https://rentry.co/RVC-dataset-RX11) on RX 11.
+### Usage 
+2. To use RX 11 it is **STONGLY** recommended that you read this <u>[guide](https://rentry.co/RVC-dataset-RX11)</u> on RX 11.
 ***
 
 ###### ‎  

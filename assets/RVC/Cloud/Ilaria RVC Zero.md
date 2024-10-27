@@ -48,8 +48,8 @@ While converting, you might have issues of the output pitch may not be the same 
      - Lower value = male, deeper.
      - Higher value = female, higher voice tone.
 - Index influence: How much accent (the one from the .index file) is applied:
-- Lower value = Less accent of the model’s voice, but helps to reduce artifacting (noises).
-- Higher value = More accent of the model’s voice, but could have artifacting (depends on the model’s dataset, as the index file depends on it).
+     - Lower value = Less accent of the model’s voice, but helps to reduce artifacting (noises).
+     - Higher value = More accent of the model’s voice, but could have artifacting (depends on the model’s dataset, as the index file depends on it).
 
 For the rest of the settings, you don’t need to change them, leave them as they are.
 
