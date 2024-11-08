@@ -194,7 +194,7 @@ Don't include spaces/special characters.
 ###### ‎     
 ##### b. Dataset Path
 ###### ‎    
-i. Upload your dataset to your GD storage if you haven't already.        
+i. Upload your dataset to your GD storage if you haven't already then run the mount cell.        
 ‎       
 ii. In Colab click the folder on the left ( :icon-file-directory-fill: ) & click the reload button.     
 ‎       
@@ -202,7 +202,7 @@ ii. In Colab click the folder on the left ( :icon-file-directory-fill: ) & click
 ‎   
     (For mobile users: tap the three lines on the top left & `Show file browser`)       
 ‎   
-iii. Open `drive`, localize your dataset, right-click it & click `Copy path`.     
+iii. Open `drive`, find your dataset then right-click it & click `Copy path`.     
 ‎   
     <img src="..\appliocolab-img\4-dtpath.png" alt="image" width="320">‎    
 ‎    
@@ -210,6 +210,9 @@ iii. Open `drive`, localize your dataset, right-click it & click `Copy path`.
 iv. Then paste it on the `Dataset Path` bar.       
 ‎     
     <img src="..\appliocolab-img\4-dataset.png" alt="image" width="550">‎  
+‎ 
+‎ 
+v. (Optional) Alternatively you can upload a single dataset file using Applio's `Dataset Maker` instead of doing it manually.
 
 ***
 ###### ‎     
