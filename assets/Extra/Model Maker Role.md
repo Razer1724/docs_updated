@@ -18,7 +18,7 @@ order: 1000
 - Model's **.INDEX** file.      
 - General information about the model.
 - General information about its training process.      
-- A Hugging Face account.     
+- A <u>[Hugging Face](https://huggingface.co)</u> account or a <u>[Weights.gg](https://www.weights.gg)</u> acount.     
 - At least 1 raw audio sample of the model **<u>WITH NO MUSIC</u>**.     
 |||
 :::
@@ -84,57 +84,48 @@ order: 1000
 ***
 ###### ‎
 #### Step 3: Prepare the submission.
-- Once your model is ready, head over to the **#be-model-maker** channel.  
+- Once your model is ready, head over to the **#model-maker-role** channel.  
 
-- Type the `/submit` command of **QCBot** and click the command.       
+- Click the `Submit Model` button.       
 
-<img src="../modelmaker-img/submit.png" alt="image" width="600" height="auto">‎               
+<img src="../modelmaker-img/1.png" alt="image" width="600" height="auto">‎               
 ‎     
 :::content-center
 #### ``Now fill up the information about your model:``  
 :::
 
-**model-name**
+**Model-name**
 :     Its name.   
 
-**technology**
+**Technology**
 :     The technology used for its training.
 
-**extraction**
+**Extraction**
 :     The <u>[extraction method](https://docs.ai-hub.wtf/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> you used.
 
-**epochs**
+**Epochs**
 :     Total <u>[epochs](https://docs.ai-hub.wtf/rvc/resources/epochs--tensorboard/)</u> amount.
 
-**link**
-:     Its download link from Hugging Face.
+**Link**
+:     Its download link from either Hugging Face or Weights.
 
-**image**
-:     An image of what it represents (person/character).   
-
-**demo**
-:     An audio sample of it talking/singing.
-
-**note** 
+**Note** 
 :   Optional. Add more context about the model if you want.
 
 ***
 !!!success 
-You can attach more samples when you repost the model to ``#voice-models``.
+You can attac samples when you repost the model to ``#voice-models``.
 !!!
 ***
 ###### ‎
 #### Step 4: Send submission.
-- Once you are done filling the information, send the message.    
+- Once you are done filling the information, click submit and a message like this will appear showing the you have successfully submited a model:
 
-- If everything went fine, your submission will be added to the queue & the bot will send a confirmation message, containing your **submission ID**.    
-<u>**With this ID, you can:**</u>        
-   - Check your submission's number in queue with the command ``/queue`` followed by the ID. (e.g ``/queue 251``).        
-   - Cancel your submission with the command ``/cancel`` followed by the ID.    
-‎     
+<img src="../modelmaker-img/submitted.png" alt="image" width="" height="auto">‎
+‎
 - Now, wait for a **QC** (quality checker) to verify your model. You'll be notified once it has been reviewed.   
 
-- If your model gets approved, the bot will notify you with a message like this:    
+- If your model gets approved, the bot will message you with a message like this:    
 
    <img src="../modelmaker-img/approved.png" alt="image" width="" height="auto">‎     
 ‎    
