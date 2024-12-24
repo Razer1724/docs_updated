@@ -1,5 +1,9 @@
 # AI Hub Docs
 
+Please look at the 'Updated_doc' branch to see all of my updates 😄
+
+This Main branch is what im going to use to mess around and see what looks good. ( Not all that i do on this branch is final nor are guaranteed to be added. )
+
 ## Introduction
 - This is a documentation of various AI tools, mostly <u>[RVC](https://docs.ai-hub.wtf/essentials/whats-rvc/)</u>-related apps. Made by members of [<u>**AI HUB**</u>](https://discord.gg/aihub).
 
