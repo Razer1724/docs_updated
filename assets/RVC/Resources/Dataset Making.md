@@ -3,7 +3,7 @@ icon: chevron-right
 order: 2000
 ---
 
-``Last update: X X, 2024``
+``Last update: Dec 24, 2024``
 ***
  ‎
 :::content-center

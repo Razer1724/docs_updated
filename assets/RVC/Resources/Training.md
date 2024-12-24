@@ -3,14 +3,16 @@ icon: chevron-right
 order: 1000
 ---
 
-``Last update: X X, 2024``
+``Last update: Dec 24, 2024``
 ***
 :::content-center
 ## Introduction
 :::
 - In this guide it will be explained how to **properly** train a model from start to finish.
 
+- **Properly** training a model is just as important as having a great dataset.
 
+- It won't be explained how to prosess a dataset and how to acutally train a model since that is difference from fork to fork, please look at the guide for your fork to find this info. 
 ***
 :::content-center
 ## Epochs & Overtraining
@@ -33,20 +35,50 @@ order: 1000
 
 - It happens when the model is trained for **too long**/is too complex. So to avoid this, RVC users use a tool called ***TensorBoard***.
 
+#### *:icon-chevron-right: What is overtraining?*
+
+- Overtraining also know as overfitting is where the model doesn't actually learn the underlying patterns of the data and memorizes them instead. 
+
+- A sign of overfitting is when the sibilances are super robotic or when the graphs in the Tensorboard are going up.
+
+
 ***
 :::content-center
 ## Batch Size & Precision
 :::
 ### Batch Size
 
+- A batch size is the number of training examples used in one iteration before updaing the model's parameters.
 
+- A smaller batch size ( Less then 8 ) is better for smaller datasets, uses less memory, updates parameters more and has noisy gradients.
+
+- A larger batch size ( More then 8 ) is better for large datasets ( over an hour ) uses more memory, has smooth gradients and trains faster. 
+
+- Usually a batch size of 8 is the best for most models with a dataset of around 30 minutes, anything less it is advisable that you use a smaller batch size and for a dataset of 1 hour or more you should increase the batch size.
+
+***
 ### Precision 
-FP16 has multiple NaNs and exploding gradients.
-FP32 gives stable gradient and 0 chance of getting NaN in rvc at the cost of very slow training and VRAM usage increase.
-The damage FP16 training gives to rvc finetunes has not been researched enough.
-FP16 is still a viable option to train in case you want speed.
-Training from scratch using FP16 gives horrible results.
 
+In RVC there are currently two precisions, FP16 and FP32. There is barely an audiable difference between the two so it is up to you on what precision setting you want to use. 
+
+!!!
+FP means floating point. 
+!!!
+
+||| **FP16's Pros:**
+- Faster then fp32
+- Less VRAM needed
+||| **FP16's Cons:**
+- Exploding gradients
+- Lots of NaNs
+- Unable to train from scratch
+||| **FP32 Pros:**
+- More stable gradients
+- No NaNs
+||| **FP32 Cons:**
+- Slower then fp16
+- Requires more VRAM
+|||
 
 ***
 :::content-center
