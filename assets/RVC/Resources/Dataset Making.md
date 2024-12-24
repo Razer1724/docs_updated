@@ -569,8 +569,8 @@ If you wish to keep the backing vocals stem, remember to download it too.
 
 Extraction | Separation Type | Model
 :---: | :---: | :---:
-Vocals/Instrumental | BS Roformer | ver 2024.08
-De-Reverb | Reverb Removal | Reverb removal by anvuew (BS Roformer)
+Vocals/Instrumental | MelBand Roformer | ver 2024.10
+De-Reverb | Reverb Removal | Reverb removal by anvuew V2 (MelRoformer)
 Extract Backing Vocals | MelBand Karaoke | Extract from vocals
 De-Noise | DeNoise by aufr33  | Aggresive
 
@@ -713,7 +713,7 @@ De-Noise | Mel Roformer De-Noise
         <img src="../datasets-img/5.png" alt="image" width="650" height="auto">
 
 ***
-#### Step 4: Slice Audio (Optional)
+#### Step 4: Manual Audio Slicing (Optional)
 - Download this: [!file](../datasets-img/split_audio.py)
 - Then place it in Applio's root folder. Then type `cmd` into the top bar where it shows your location.
 
